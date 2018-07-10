@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id = "@+id/activity_main"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/contact_form_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/contact_form_name"
+            android:hint="@string/contact_form_name"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <EditText
+            android:id="@+id/contact_form_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/contact_form_email"
+            android:hint="@string/contact_form_email"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <EditText
+            android:id="@+id/contact_form_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="@string/contact_form_phone"
+            android:hint="@string/contact_form_phone"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <EditText
+            android:id="@+id/ticket_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/ticket_type"
+            android:hint="@string/ticket_type"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <EditText
+            android:id="@+id/contact_form_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="@string/contact_form_message"
+            android:hint="@string/contact_form_message"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_form_button"
+            android:text="@string/contact_form_button"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="396dp" />
+    </LinearLayout>
